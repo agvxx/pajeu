@@ -173,6 +173,20 @@
   border: 0.1rem solid var(--primary-color);
 }
 
+@media (max-width: 1024px) {
+  .intro-content, .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .intro-text-content {
+    padding: 10px; 
+  }
+
+  .intro-img {
+    margin: 0;
+  }
+}
+
 @media (max-width: 750px) {
   .intro-content, .grid {
     grid-template-columns: 1fr;
